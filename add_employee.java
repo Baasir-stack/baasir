@@ -7,7 +7,7 @@ import javax.swing.*;
 
 
 
-public class add_employee implements ActionListener {
+private class add_employee implements ActionListener {
 
 	JFrame frame;
     JLabel box,title,label1,label2,label3,label4,label5,label6,label7,label8,label9,label10,label11,label12,label13;
@@ -20,8 +20,8 @@ public class add_employee implements ActionListener {
         frame.setBackground(Color.white);
         frame.setLayout(null);
 
-        box = new JLabel();
-        box.setBounds(0,0,900,700);
+    private    box = new JLabel();
+     private   box.setBounds(0,0,900,700);
         box.setLayout(null);
         ImageIcon img = new ImageIcon(ClassLoader.getSystemResource("icon/add.jpg"));
         box.setIcon(img);
